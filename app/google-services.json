@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "67757338970",
+    "firebase_url": "https://worldofbikesdublin.firebaseio.com",
+    "project_id": "worldofbikesdublin",
+    "storage_bucket": "worldofbikesdublin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67757338970:android:5fa7877a6e439faf",
+        "android_client_info": {
+          "package_name": "com.example.annemarie.worldofbikesdublin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67757338970-m1htsej3ngforaotjotoebdqvjcp0k69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtmTXJoOe-YbFj4zug9Gm_v4Ox9Sj6dw8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
