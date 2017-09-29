@@ -26,7 +26,8 @@
         <activity android:name=".ThreeTabActivity" />
         <activity android:name=".MapActivity" />
         <activity android:name=".GalleryActivity" />
-        <activity android:name=".PhotoActivity"></activity>
+        <activity android:name=".PhotoActivity" />
+        <activity android:name=".MenuActivity"></activity>
     </application>
 
 </manifest>
