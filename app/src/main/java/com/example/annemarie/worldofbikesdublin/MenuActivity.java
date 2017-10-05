@@ -18,14 +18,14 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-    }
-        setContentView(R.layout.activity_menu);
+
+
         TextView tv = (TextView) findViewById(R.id.text_view);
 
         // Long presses on TextView tv invoke Context Menu
         registerForContextMenu(tv);
-
     }
+
 
     // Create Options Menu
     @Override

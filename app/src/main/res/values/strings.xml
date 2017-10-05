@@ -14,9 +14,9 @@
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
+        completions."</string>
     <string name="guide">Hit the Menu Button!</string>
     <string name="no_idea">Completely Lost</string>
         <string name="logout"> Logout</string>
-    </string>
+
 </resources>

@@ -56,39 +56,39 @@ public class MapActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onStart() {
+    public void onStart() {
         super.onStart();
         Log.i(TAG, "The activity is visible and about to be started.");
     }
 
 
     @Override
-    protected void onRestart() {
+    public void onRestart() {
         super.onRestart();
         Log.i(TAG, "The activity is visible and about to be restarted.");
     }
 
     @Override
-    protected void onResume() {
+    public void onResume() {
         super.onResume();
         Log.i(TAG, "The activity is and has focus (it is now \"resumed\")");
     }
 
     @Override
-    protected void onPause() {
+    public void onPause() {
         super.onPause();
         Log.i(TAG,
                 "Another activity is taking focus (this activity is about to be \"paused\")");
     }
 
     @Override
-    protected void onStop() {
+    public void onStop() {
         super.onStop();
         Log.i(TAG, "The activity is no longer visible (it is now \"stopped\")");
     }
 
     @Override
-    protected void onDestroy() {
+    public void onDestroy() {
         super.onDestroy();
         Log.i(TAG, "The activity is about to be destroyed.");
     }
