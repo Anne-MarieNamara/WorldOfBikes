@@ -21,7 +21,7 @@ public class PhotoActivity extends AppCompatActivity {
 
         Button btnCamera = (Button) findViewById(R.id.btnCamera);
         // this id is in the xml layout file activity_photo
-        ImageView imageView = (Image) findViewById(R.id.imagePhotoView);
+        ImageView imageView = (ImageView) findViewById(R.id.imagePhotoView);
         // this id is in the xml layout file activity_photo
 
         btnCamera.setOnClickListener(new View.OnClickListener(){

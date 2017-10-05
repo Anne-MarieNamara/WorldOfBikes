@@ -2,7 +2,6 @@ package com.example.annemarie.worldofbikesdublin;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.app.Activity;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.view.View;
@@ -52,7 +51,7 @@ public class GalleryActivity extends AppCompatActivity {
         public ImageAdapter(Context c) {
             mContext = c;
             TypedArray a = c.obtainStyledAttributes(R.styleable.GalleryActivity);
-            mGalleryItemBackground = a.getResourceId(R.styleable.GalleryActivity_android_galleryItemBackground, 0);
+            //mGalleryItemBackground = a.getResourceId(R.styleable.GalleryActivity_android_galleryItemBackground, 0);
             a.recycle();
         }
 

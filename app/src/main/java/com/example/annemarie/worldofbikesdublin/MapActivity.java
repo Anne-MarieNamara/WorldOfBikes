@@ -14,6 +14,8 @@ import android.widget.EditText;
 
 public class MapActivity extends AppCompatActivity {
 
+    private final String TAG = "MapLocation";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,8 +23,6 @@ public class MapActivity extends AppCompatActivity {
 
         // Several Activity lifecycle methods are instrumented to emit LogCat output
 // so you can follow this class' lifecycle
-
-        final String TAG = "MapLocation";
 
         // Initialize UI elements
         final EditText addrText = (EditText) findViewById(R.id.location);
@@ -56,39 +56,39 @@ public class MapActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onStart() {
+    protected void onStart() {
         super.onStart();
         Log.i(TAG, "The activity is visible and about to be started.");
     }
 
 
     @Override
-    public void onRestart() {
+    protected void onRestart() {
         super.onRestart();
         Log.i(TAG, "The activity is visible and about to be restarted.");
     }
 
     @Override
-    public void onResume() {
+    protected void onResume() {
         super.onResume();
         Log.i(TAG, "The activity is and has focus (it is now \"resumed\")");
     }
 
     @Override
-    public void onPause() {
+    protected void onPause() {
         super.onPause();
         Log.i(TAG,
                 "Another activity is taking focus (this activity is about to be \"paused\")");
     }
 
     @Override
-    public void onStop() {
+    protected void onStop() {
         super.onStop();
         Log.i(TAG, "The activity is no longer visible (it is now \"stopped\")");
     }
 
     @Override
-    public void onDestroy() {
+    protected void onDestroy() {
         super.onDestroy();
         Log.i(TAG, "The activity is about to be destroyed.");
     }

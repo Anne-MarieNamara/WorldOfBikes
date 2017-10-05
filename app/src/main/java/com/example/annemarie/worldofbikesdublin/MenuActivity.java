@@ -2,7 +2,6 @@ package com.example.annemarie.worldofbikesdublin;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.Menu;
@@ -18,14 +17,12 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-
-
         TextView tv = (TextView) findViewById(R.id.text_view);
 
         // Long presses on TextView tv invoke Context Menu
         registerForContextMenu(tv);
-    }
 
+    }
 
     // Create Options Menu
     @Override
