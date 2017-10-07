@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(view == buttonSignup){
             registerUser();
+
         }
 
         if(view == textViewSignin){

@@ -27,6 +27,8 @@
         android:textColor="@color/White"
         android:text="Open Camera"
 
+
+
         />
 
 </LinearLayout>

@@ -93,8 +93,11 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
             startActivity(new Intent(this, LoginActivity.class));
         }
 
-        if(view == buttonSave){
+        else if(view == buttonSave){
             saveUserInformation();
+             startActivity(new Intent(this, ThreeTabActivity.class));
         }
+
+
     }
 }
